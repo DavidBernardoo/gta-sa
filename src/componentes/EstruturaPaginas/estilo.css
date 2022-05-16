@@ -1,0 +1,26 @@
+.alturaMaxima {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.estrutura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-estrutura li {
+    margin: 40px 0;
+    list-style: none;
+}
+
+.conteudo-estrutura {
+    width: 550px;
+    height: 450px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+

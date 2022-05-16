@@ -1,0 +1,27 @@
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-home {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    font-family: 'Bank Gothic';
+    font-size: 22px;
+    transition-duration: 0.1s;
+    margin: 5px 0;
+}
+
+.link-home:hover {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.096);
+}

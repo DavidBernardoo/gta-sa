@@ -1,0 +1,35 @@
+.titulo {
+    font-family: 'Cloister Black';
+    font-weight: normal;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.texto-limitado {
+    box-sizing: border-box;
+    font-family: 'Aharoni Bold';
+    font-weight: normal;
+    font-size: 18px;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.texto-limitado::-webkit-scrollbar {
+    background-color: rgb(29, 29, 29);
+    width: 6px;
+    border-radius: 5px;
+}
+
+.texto-limitado::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.texto {
+    color: white;
+}
