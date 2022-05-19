@@ -9,7 +9,7 @@
 
 .texto-limitado {
     box-sizing: border-box;
-    font-family: 'Aharoni Bold';
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: normal;
     font-size: 18px;
     padding: 20px;
@@ -17,6 +17,11 @@
     height: 100%;
     line-height: 30px;
     text-align: justify;
+}
+
+.texto-limitado p {
+    margin: 30px 0;
+    color: white;
 }
 
 .texto-limitado::-webkit-scrollbar {
@@ -28,8 +33,4 @@
 .texto-limitado::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 5px;
-}
-
-.texto {
-    color: white;
 }

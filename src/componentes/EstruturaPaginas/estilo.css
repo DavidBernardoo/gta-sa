@@ -2,13 +2,15 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .estrutura {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 
 .links-estrutura li {
@@ -17,10 +19,30 @@
 }
 
 .conteudo-estrutura {
-    width: 550px;
+    max-width: 650px;
     height: 450px;
     margin-left: 50px;
     text-align: center;
 }
 
+@media (max-width: 960px) {
+    .estrutura {
+        flex-direction: column;
+    }
 
+    .links-estrutura ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .links-estrutura li {
+        margin: 20px 20px;
+    }
+
+    .conteudo-estrutura {
+        width: 95%;
+        margin: 0;
+    }
+}

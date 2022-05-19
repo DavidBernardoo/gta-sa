@@ -1,5 +1,11 @@
 .botaoVoltar {
     text-align: center;
     font-size: 20px;
-    align-self: center;
+    margin: 60px 0;
+}
+
+@media (max-width: 960) {
+    .botaoVoltar {
+        margin: 30px 0;
+    }
 }

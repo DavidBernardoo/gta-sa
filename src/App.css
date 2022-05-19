@@ -23,8 +23,12 @@ body {
 }
 
 .App {
-  max-width: 1024px;
   height: 100vh;
+  
+}
+
+.largura-limitada {
+  max-width: 1024;
   margin: auto;
 }
 
